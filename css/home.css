@@ -1,0 +1,55 @@
+.banner-container {
+    background-image: url("../img/bg.png");
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 2000px #1c1c1c7a;
+    text-align: center;
+    padding: 160px 15px;
+}
+
+@media (max-width: 768px) {
+    .banner-container {
+        padding: 100px 15px;
+    }
+}
+
+.city-search {
+    max-width: 500px;
+    margin: auto;
+    position: relative;}
+.majorcity{
+    
+    padding: 59px;
+    text-align: center; 
+} 
+
+.citynames{
+    display: flex;
+    justify-content: center;
+    flex-basis: 100px;
+}  
+
+/* Rather than rounding the image itself, I rounded the div containing the image */
+.citynames>div{
+    border-radius: 50%;
+    border:50px ;
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.16);
+    display: inline-block;
+    margin-top: 14px;
+    margin-inline: 30px;
+    
+    /* Also gave some padding to the divs, so that the image fit perfectly */
+    padding: 10px; 
+}
+
+/* Gave height and width to the image */
+.citynames img{
+    height: 100px;
+    width: 100px;
+}
+
+
+.majorcity>h1{
+    
+    padding-top: 23px;
+    
+}   

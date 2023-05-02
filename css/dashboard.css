@@ -1,0 +1,116 @@
+*
+{
+    box-sizing: border-box;
+}
+.profile-container{
+    
+    font-size: 78px;
+    display:flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-inline-start: 380.646px;
+    padding-bottom: 80px;
+} 
+.profile-img{
+    color: grey;
+    border: 1px solid #e4e4e4;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    box-shadow: 0 0 1px 2px rgba(0,0,0,.075);
+}
+.detail{
+    font-size: 18px;
+    position: absolute;
+    left: 200px;
+    
+}
+.profile-container>div{
+    display: flex;
+    position: relative;
+}
+.editpage{
+    font-size: 13px;
+    color: blue;
+    align-self:end;
+    text-decoration: underline;
+    padding-bottom: 11px;
+    position: absolute;
+    left: 70%;
+    padding-right: 213px;
+}
+.interested {
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: column;
+}
+.heading-container{
+    margin-top: 80px;
+    font-weight: bold;
+    padding-left: 380.646px;
+    justify-self: center;
+    margin-bottom: 40px;
+
+}
+.property-card {
+    background-color: #ffffff;
+    border-radius: 2px;
+    padding: 15px 0px;
+    margin: 0px 375px 20px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.image-container img {
+    width: 100%;
+    max-width: 300px;
+}
+.star-container i {
+    color: #EA322E;
+    font-size: 10px;
+    margin-right: 6px;
+}
+
+.interested-container {
+    text-align: center;
+}
+
+.interested-container i {
+    color: #EA322E;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.interested-text {
+    font-size: 10px;
+}
+
+.detail-container {
+    padding-bottom: 10px;
+}
+
+.property-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.property-address {
+    color: #6f6f6f;
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+
+.property-gender img {
+    width: 40px;
+}
+
+.rent-container {
+    display: flex;
+    align-items: center;
+}
+
+.rent {
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 10px;
+}
